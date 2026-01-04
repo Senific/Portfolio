@@ -1,11 +1,11 @@
 # Robots.txt for Kasun Chamara Portfolio
-# https://senific.com
+# https://portfolio.senific.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://senific.com/sitemap.xml
+Sitemap: https://portfolio.senific.com/sitemap.xml
 
 # Disallow unnecessary paths
 Disallow: /private/
