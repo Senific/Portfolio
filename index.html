@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Kasun Chamara (Kas) | Full Stack Developer | Game Dev | AI Specialist</title>
+    <meta name="title" content="Kasun Chamara (Kas) | Full Stack Developer | Game Dev | AI Specialist">
+    <meta name="description" content="Hire Kas - Expert Full Stack Developer specializing in Web Development, Mobile Apps, Game Development (Unity/C#), Blockchain & AI Agents. 100% client satisfaction on Upwork. Let's build something amazing together!">
+    <meta name="keywords" content="Full Stack Developer, Web Developer, Game Developer, Unity Developer, Mobile App Developer, AI Agent Developer, Blockchain Developer, React Developer, C# Developer, Kasun Chamara, Kas, Freelance Developer, Upwork Developer">
+    <meta name="author" content="Kasun Chamara">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://senific.com/">
+    <meta property="og:title" content="Kasun Chamara (Kas) | Full Stack Developer | Game Dev | AI Specialist">
+    <meta property="og:description" content="Expert Full Stack Developer specializing in Web, Mobile, Games, Blockchain & AI. 100% client satisfaction. Let's build something amazing!">
+    <meta property="og:image" content="https://senific.com/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://senific.com/">
+    <meta property="twitter:title" content="Kasun Chamara (Kas) | Full Stack Developer | Game Dev | AI Specialist">
+    <meta property="twitter:description" content="Expert Full Stack Developer specializing in Web, Mobile, Games, Blockchain & AI. 100% client satisfaction. Let's build something amazing!">
+    <meta property="twitter:image" content="https://senific.com/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://senific.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kasun Chamara",
+        "alternateName": "Kas",
+        "url": "https://senific.com",
+        "image": "https://senific.com/profile.jpg",
+        "jobTitle": "Full Stack Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Senific"
+        },
+        "description": "Expert Full Stack Developer specializing in Web Development, Mobile Apps, Game Development, Blockchain & AI Agents",
+        "email": "liveheartstudio@gmail.com",
+        "telephone": "+94764092662",
+        "sameAs": [
+            "https://play.google.com/store/apps/developer?id=senific"
+        ],
+        "knowsAbout": ["Web Development", "Mobile App Development", "Game Development", "Unity", "C#", "Blockchain", "AI Agents", "React", "Node.js"],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Full Stack Developer",
+            "skills": "Web Development, Mobile Development, Game Development, Blockchain, AI"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="code-loader">
+                <span>{</span><span>}</span>
+            </div>
+            <p>Loading awesome stuff...</p>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">&lt;Kas/&gt;</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-btn">Hire Me</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="particles" id="particles"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting" data-aos="fade-up">Hello, I'm</p>
+                <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100">
+                    Kasun <span class="gradient-text">Chamara</span>
+                </h1>
+                <div class="hero-title-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <span class="hero-title-prefix">I'm a</span>
+                    <div class="hero-titles">
+                        <span class="hero-title">Full Stack Developer</span>
+                        <span class="hero-title">Game Developer</span>
+                        <span class="hero-title">Mobile App Developer</span>
+                        <span class="hero-title">AI Agent Developer</span>
+                        <span class="hero-title">Blockchain Developer</span>
+                    </div>
+                </div>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                    Transforming ideas into powerful digital experiences. With expertise spanning web, mobile, games, blockchain, and AI — I bring your vision to life with clean code and creative solutions.
+                </p>
+                <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat">
+                        <span class="stat-number" data-count="100">0</span><span class="stat-symbol">%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="50">0</span><span class="stat-symbol">+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="15">0</span><span class="stat-symbol">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Let's Talk</span>
+                        <i class="fas fa-comments"></i>
+                    </a>
+                </div>
+                <div class="hero-social" data-aos="fade-up" data-aos-delay="600">
+                    <a href="https://wa.me/94764092662" target="_blank" class="social-link" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:liveheartstudio@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://play.google.com/store/apps/developer?id=senific" target="_blank" class="social-link" aria-label="Google Play">
+                        <i class="fab fa-google-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-delay="300">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-bg"></div>
+                    <div class="hero-avatar">
+                        <img src="Resources/My%20photo1.jpg" alt="Kasun Chamara - Full Stack Developer" class="profile-image">
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fab fa-unity"></i>
+                        <span>Unity</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fas fa-robot"></i>
+                        <span>AI</span>
+                    </div>
+                    <div class="floating-badge badge-4">
+                        <i class="fab fa-ethereum"></i>
+                        <span>Web3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get To Know</span>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-bg"></div>
+                        <img src="Resources/My%20photo1.jpg" alt="Kasun Chamara - Kas" class="about-img">
+                        <div class="experience-badge">
+                            <span class="exp-number">15+</span>
+                            <span class="exp-text">Years of<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>A Passionate Developer Who Loves Building Things</h3>
+                    <p>
+                        Hey there! I'm <strong>Kas</strong> — a versatile Full Stack Developer with a passion for creating exceptional digital experiences. From sleek websites to immersive games, from powerful mobile apps to cutting-edge AI solutions, I love turning complex problems into elegant solutions.
+                    </p>
+                    <p>
+                        With experience spanning <strong>web development</strong>, <strong>mobile applications</strong>, <strong>game development with Unity & C#</strong>, <strong>blockchain technology</strong>, and <strong>AI agent development</strong>, I bring a unique multi-disciplinary perspective to every project.
+                    </p>
+                    <p>
+                        Having worked on dozens of projects on Upwork with <strong>100% client satisfaction</strong>, I understand what it takes to deliver quality work that exceeds expectations. I don't just write code — I craft solutions that drive results.
+                    </p>
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-medal"></i>
+                            <h4>Quality First</h4>
+                            <p>100% satisfaction rate on all projects</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-bolt"></i>
+                            <h4>Fast Delivery</h4>
+                            <p>On-time delivery, every time</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-comments"></i>
+                            <h4>Great Communication</h4>
+                            <p>Always available and responsive</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Work Together</span>
+                        <i class="fas fa-handshake"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What I Offer</span>
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive development solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Full-stack web applications with modern technologies. From responsive landing pages to complex enterprise solutions.</p>
+                    <ul class="service-features">
+                        <li>React / Next.js / Vue</li>
+                        <li>Node.js / Express / NestJS</li>
+                        <li>Database Design & API Development</li>
+                        <li>E-commerce Solutions</li>
+                    </ul>
+                    <div class="service-hover-content">
+                        <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Native and cross-platform mobile applications that users love. Published apps with real downloads.</p>
+                    <ul class="service-features">
+                        <li>Android Development</li>
+                        <li>React Native / Flutter</li>
+                        <li>App Store Optimization</li>
+                        <li>Push Notifications & Analytics</li>
+                    </ul>
+                    <div class="service-hover-content">
+                        <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>Engaging games built with Unity and C#. From casual mobile games to complex 3D experiences.</p>
+                    <ul class="service-features">
+                        <li>Unity 2D/3D Games</li>
+                        <li>C# Game Programming</li>
+                        <li>Game Mechanics & Physics</li>
+                        <li>Multiplayer Integration</li>
+                    </ul>
+                    <div class="service-hover-content">
+                        <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Agent Development</h3>
+                    <p>Intelligent AI solutions that automate and enhance your business processes.</p>
+                    <ul class="service-features">
+                        <li>Custom AI Agents</li>
+                        <li>LLM Integration</li>
+                        <li>Automation Workflows</li>
+                        <li>Chatbots & Assistants</li>
+                    </ul>
+                    <div class="service-hover-content">
+                        <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>Blockchain Development</h3>
+                    <p>Decentralized applications and smart contracts for the Web3 ecosystem.</p>
+                    <ul class="service-features">
+                        <li>Smart Contracts</li>
+                        <li>DApp Development</li>
+                        <li>Token Development</li>
+                        <li>Web3 Integration</li>
+                    </ul>
+                    <div class="service-hover-content">
+                        <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Custom Solutions</h3>
+                    <p>Bespoke software solutions tailored to your unique business requirements.</p>
+                    <ul class="service-features">
+                        <li>API Development</li>
+                        <li>System Integration</li>
+                        <li>Legacy Modernization</li>
+                        <li>Technical Consulting</li>
+                    </ul>
+                    <div class="service-hover-content">
+                        <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My Work</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">A showcase of my best work across different platforms</p>
+            </div>
+            
+            <!-- Project Filters -->
+            <div class="project-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="game">Games</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Web Projects -->
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="Resources/TukoApp/Screenshot_1765171403.png" alt="Tuko.lk - E-commerce Platform" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://tuko.lk" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3>Tuko.lk</h3>
+                        <p>A comprehensive e-commerce platform built with modern web technologies, featuring seamless user experience and robust functionality.</p>
+                        <div class="project-tech">
+                            <span>Web App</span>
+                            <span>E-commerce</span>
+                            <span>Full Stack</span>
+                        </div>
+                        <a href="https://tuko.lk" target="_blank" class="project-btn">
+                            Visit Site <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder web-placeholder">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://safa.lk" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3>Safa.lk</h3>
+                        <p>Feature-rich web application designed to provide exceptional user experience with modern design principles.</p>
+                        <div class="project-tech">
+                            <span>Web App</span>
+                            <span>Modern UI</span>
+                            <span>Responsive</span>
+                        </div>
+                        <a href="https://safa.lk" target="_blank" class="project-btn">
+                            Visit Site <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder web-placeholder">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://star.tuko.lk" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Application</span>
+                        <h3>Star.Tuko.lk</h3>
+                        <p>Specialized platform extending the Tuko ecosystem with additional features and enhanced functionality.</p>
+                        <div class="project-tech">
+                            <span>Web App</span>
+                            <span>Platform</span>
+                            <span>Integrated</span>
+                        </div>
+                        <a href="https://star.tuko.lk" target="_blank" class="project-btn">
+                            Visit Site <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile Apps -->
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="Resources/TukoApp/Screenshot_1759222908.png" alt="Tuko Mobile App" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.senific.tuko" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile Application</span>
+                        <h3>Tuko Mobile App</h3>
+                        <p>Native Android application providing seamless mobile experience for the Tuko platform users.</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>Mobile</span>
+                            <span>Play Store</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.senific.tuko" target="_blank" class="project-btn">
+                            <i class="fab fa-google-play"></i> Get on Play Store
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="Resources/TukoApp/Screenshot_1765957634.png" alt="Poca App" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://play.google.com/store/apps/details?id=com.senific.poca" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile Application</span>
+                        <h3>Poca App</h3>
+                        <p>Feature-rich mobile application designed with user-centric approach and smooth performance.</p>
+                        <div class="project-tech">
+                            <span>Android</span>
+                            <span>Mobile</span>
+                            <span>Play Store</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.senific.poca" target="_blank" class="project-btn">
+                            <i class="fab fa-google-play"></i> Get on Play Store
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Game Projects -->
+                <div class="project-card" data-category="game" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder game-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://youtu.be/Cef4GNAGQH4" target="_blank" class="project-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Game Development</span>
+                        <h3>Unity Game Project 1</h3>
+                        <p>Engaging game built with Unity and C#, featuring polished gameplay mechanics and immersive experience.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Game Dev</span>
+                        </div>
+                        <a href="https://youtu.be/Cef4GNAGQH4" target="_blank" class="project-btn">
+                            <i class="fab fa-youtube"></i> Watch Gameplay
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="game" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder game-placeholder">
+                            <i class="fas fa-dice-d20"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://youtu.be/mpl2-WuOSnE" target="_blank" class="project-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Game Development</span>
+                        <h3>Unity Game Project 2</h3>
+                        <p>Creative game project showcasing advanced Unity development skills and game design principles.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>3D/2D</span>
+                        </div>
+                        <a href="https://youtu.be/mpl2-WuOSnE" target="_blank" class="project-btn">
+                            <i class="fab fa-youtube"></i> Watch Gameplay
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="game" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder game-placeholder">
+                            <i class="fas fa-chess"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://youtu.be/M2XSbtx6zd8" target="_blank" class="project-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Game Development</span>
+                        <h3>Unity Game Project 3</h3>
+                        <p>Another exciting game project demonstrating versatility in game development and creative problem solving.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Game Design</span>
+                        </div>
+                        <a href="https://youtu.be/M2XSbtx6zd8" target="_blank" class="project-btn">
+                            <i class="fab fa-youtube"></i> Watch Gameplay
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta" data-aos="fade-up">
+                <p>Interested in seeing more of my work?</p>
+                <a href="#contact" class="btn btn-primary">
+                    <span>Let's Discuss Your Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">My Expertise</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+                <p class="section-subtitle">The tools and technologies I use to bring ideas to life</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-n"></i>
+                            <span>Next.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React Native</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-feather"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-k"></i>
+                            <span>Kotlin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3><i class="fas fa-gamepad"></i> Game Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-unity"></i>
+                            <span>Unity</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hashtag"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>3D Modeling</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bezier-curve"></i>
+                            <span>Animation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Multiplayer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="500">
+                    <h3><i class="fas fa-brain"></i> AI & Blockchain</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Agents</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>LLMs</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-ethereum"></i>
+                            <span>Ethereum</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-file-contract"></i>
+                            <span>Smart Contracts</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cubes"></i>
+                            <span>Web3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category" data-aos="fade-up" data-aos-delay="600">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Trust Section -->
+    <section class="trust section" id="trust">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Why Choose Me</span>
+                <h2 class="section-title">Client <span class="gradient-text">Satisfaction</span></h2>
+            </div>
+            <div class="trust-content">
+                <div class="trust-card main-trust" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trust-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="trust-percentage">100%</div>
+                    <h3>Client Satisfaction</h3>
+                    <p>Maintained perfect satisfaction rate across dozens of projects on Upwork</p>
+                    <div class="upwork-badge">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Verified on Upwork</span>
+                    </div>
+                </div>
+                <div class="trust-stats" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trust-stat">
+                        <i class="fas fa-project-diagram"></i>
+                        <span class="trust-number">50+</span>
+                        <span class="trust-label">Projects Delivered</span>
+                    </div>
+                    <div class="trust-stat">
+                        <i class="fas fa-users"></i>
+                        <span class="trust-number">30+</span>
+                        <span class="trust-label">Happy Clients</span>
+                    </div>
+                    <div class="trust-stat">
+                        <i class="fas fa-clock"></i>
+                        <span class="trust-number">100%</span>
+                        <span class="trust-label">On-Time Delivery</span>
+                    </div>
+                    <div class="trust-stat">
+                        <i class="fas fa-redo"></i>
+                        <span class="trust-number">80%</span>
+                        <span class="trust-label">Repeat Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p class="section-subtitle">Have a project in mind? Let's discuss how I can help bring your ideas to life.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Ready to Start Your Project?</h3>
+                    <p>I'm always excited to work on new and challenging projects. Whether you need a website, mobile app, game, or AI solution — I'm here to help!</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:liveheartstudio@gmail.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email Me</span>
+                                <span class="contact-value">liveheartstudio@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/94764092662" target="_blank" class="contact-method whatsapp">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">WhatsApp</span>
+                                <span class="contact-value">+94 76 409 2662</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-cta">
+                        <p>Prefer a quick chat?</p>
+                        <a href="https://wa.me/94764092662?text=Hi%20Kas!%20I'm%20interested%20in%20working%20with%20you%20on%20a%20project." target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Message on WhatsApp</span>
+                        </a>
+                    </div>
+
+                    <div class="availability">
+                        <div class="availability-dot"></div>
+                        <span>Available for new projects</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" data-aos="fade-left" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="project-type">Project Type</label>
+                        <select id="project-type" name="project-type" required>
+                            <option value="">Select a project type</option>
+                            <option value="web">Web Development</option>
+                            <option value="mobile">Mobile App Development</option>
+                            <option value="game">Game Development</option>
+                            <option value="ai">AI / Automation</option>
+                            <option value="blockchain">Blockchain / Web3</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select your budget</option>
+                            <option value="small">$500 - $1,000</option>
+                            <option value="medium">$1,000 - $5,000</option>
+                            <option value="large">$5,000 - $10,000</option>
+                            <option value="enterprise">$10,000+</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">&lt;Kas/&gt;</a>
+                    <p>Full Stack Developer crafting digital experiences that make a difference.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/94764092662" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:liveheartstudio@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://play.google.com/store/apps/developer?id=senific" target="_blank" aria-label="Google Play"><i class="fab fa-google-play"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <a href="#services">Web Development</a>
+                    <a href="#services">Mobile Apps</a>
+                    <a href="#services">Game Development</a>
+                    <a href="#services">AI Solutions</a>
+                    <a href="#services">Blockchain</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> liveheartstudio@gmail.com</p>
+                    <p><i class="fab fa-whatsapp"></i> +94 76 409 2662</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kasun Chamara. All rights reserved.</p>
+                <p>Crafted with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
